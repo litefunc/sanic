@@ -1,0 +1,10 @@
+language: python
+python:
+  - "3.6"
+
+# command to install dependencies
+install:
+sudo pip install sanic
+sudo pip install jinja2
+# command to run tests
+script: pytest
